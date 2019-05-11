@@ -1,0 +1,116 @@
+* {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+body {
+  background-color: rgb(246, 154, 113);
+  min-width: 260px;
+}
+#main{
+  width: 75%;
+  margin: auto;
+}
+h1{
+  display: block;
+  padding: 35px;
+  color: #fff;
+}
+form {
+  background: #fff;
+  border-radius: 35px
+}
+#description {
+  display: block;
+  padding: 15px;
+  font-size: 20px;
+}
+label {
+  display: block:
+  text-align: right;
+}
+ #container{
+  width: 90%;
+  margin: auto;
+  vertical-align: top;
+  padding: 15px;
+}
+.leftBox{
+  width: 45%;
+  height: 50%;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  margin-top: 13px;
+}
+.rightBox{
+  width: 45%;
+  height: 50%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+#name, #email, #number, textarea {
+  width: 90%;
+  text-align: left;
+  height: 15px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid rgb(246, 154, 113);
+  border-radius: 5px;
+}
+.dropdown {
+  margin: 15px;
+  border: 1px solid rgb(246, 154, 113);
+  border-radius: 5px;
+  padding: 5px;
+}
+input[type="radio"],
+.radio {
+  border: 2px red solid;
+  margin-right: 5px;
+  text-align: left;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding-top: 10px;
+}
+li{
+  text-align: left;
+  margin: 5px;
+}
+textarea {
+  margin-top: 15px;
+  min-height: 25px;
+}
+.submit {
+  padding: 15px 25px;
+  border-radius: 5px;
+  background: rgb(246, 154, 113);
+  border: 2px solid rgb(255, 126, 68);
+}
+@media screen and (max-width: 660px) {
+  body{
+    background: #fff;
+  }  
+  #main{
+    width: 100%;
+    margin: auto;
+  }
+  h1{
+    color: #000
+  }
+}
+@media screen and (max-width: 470px) {
+  .leftBox,
+  .rightBox {
+    width: 100%;
+    text-align: left;
+  }
+  h1{
+    color: #000
+  }
+}
